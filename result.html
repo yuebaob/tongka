@@ -76,9 +76,8 @@
               ) + "的动态行程卡";
               document.querySelector(".update").textContent =
                 "更新于：" + moment().format("YYYY.MM.DD HH:mm:ss");
-              document.querySelector(".addr").textContent = urlParams.get(
-                "addr"
-              );
+              addr = prompt("输入地址:","陕西省西安市");
+              document.querySelector(".addr").textContent = addr
             </script>
           </div>
           <!----><!---->
